@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/tw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="HOW TO USE THE APP"
+        android:textColor="#ffb800"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tw1"
+
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewPager1"
+        android:paddingTop="6dp"
+        android:textColor="#1e009f"
+        android:textSize="15dp"
+        android:text="1. First of all ADD VENDOR in the vendor list because you will be allowed to enter the products corresponding to some vendor." />
+
+    <TextView
+        android:id="@+id/tw3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tw2"
+        android:paddingTop="6dp"
+        android:textColor="#1e009f"
+        android:textSize="15dp"
+        android:text="2. Secondly ADD PRODUCT that is supplied by the vendor that is already vendor list." />
+
+    <TextView
+        android:id="@+id/tw4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tw3"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:textColor="#1e009f"
+        android:textSize="15dp"
+        android:text="3. Now, you are able to SALE PRODUCT that is stored in the PRODUCT LIST." />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tw4"
+        android:layout_margin="6dp"
+        android:background="@android:color/darker_gray" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tw10"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/viewPager2"-->
+<!--        android:paddingTop="6dp"-->
+<!--        android:text="IF YOU LIKE OUR WORK PLEASE SUPPORT US BY WATCHING A 1 MINUTE VIDEO AVAILABLE IN THE SIDE PANEL."-->
+<!--        android:textColor="@color/colorPrimaryDark"-->
+<!--        android:textStyle="bold" />-->
+</RelativeLayout>

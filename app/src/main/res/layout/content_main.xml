@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#1e009f"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawSelectorOnTop="true"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add_product"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#ffb800"
+                android:drawableTop="@drawable/add_product"
+                android:padding="36dp"
+                android:text="@string/add_product"
+                android:textColor="#ffb800"
+                app:backgroundTint="#1e009f" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sale_product"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#887321"
+                android:drawableTop="@drawable/sale_product"
+                android:padding="36dp"
+                android:text="@string/sale_product"
+                android:textColor="#ffb800"
+                app:backgroundTint="#1e009f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/product_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#933838"
+                android:drawableTop="@drawable/product_list"
+                android:padding="36dp"
+                android:text="@string/product_list"
+                android:textColor="#ffb800"
+                app:backgroundTint="#1e009f" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/vendor_list"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#933838"
+                android:drawableTop="@drawable/vendor_list"
+                android:padding="36dp"
+                android:text="@string/vendor_list"
+                android:textColor="#ffb800"
+                app:backgroundTint="#1e009f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add_vendor"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#933838"
+                android:drawableTop="@drawable/add_vendor"
+                android:padding="36dp"
+                android:text="@string/add_vendor"
+                android:textColor="#ffb800"
+                app:backgroundTint="#1e009f" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/pie_chart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#933838"
+                android:drawableTop="@drawable/pie_chart"
+                android:padding="36dp"
+                android:text="@string/pie_chart"
+                android:textColor="#ffb800"
+                app:backgroundTint="#1e009f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/purchaseDetail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#933838"
+                android:drawableTop="@drawable/purchase_detail"
+                android:padding="32dp"
+                android:text="@string/purchase_detail"
+                android:textColor="#ffb800"
+                app:backgroundTint="#1e009f" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sales_detail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#933838"
+                android:drawableTop="@drawable/sale_detail"
+                android:padding="32dp"
+                android:text="@string/sale_detail"
+                android:textColor="#ffb800"
+                app:backgroundTint="#1e009f" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--    </ScrollView>-->
+</LinearLayout>

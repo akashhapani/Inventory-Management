@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/share" />
+<!--        <item-->
+<!--            android:id="@+id/rate"-->
+<!--            android:icon="@drawable/ic_menu_rate"-->
+<!--            android:title="@string/rate" />-->
+        <item
+            android:id="@+id/user_manual"
+            android:icon="@drawable/user_manual"
+            android:title="User Manual" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/about" />
+    </group>
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/ic_menu_fb"
+                android:title="@string/fb" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/contact_us" />
+<!--            <item-->
+<!--                android:id="@+id/support_us"-->
+<!--                android:icon="@drawable/support_us"-->
+<!--                android:title="Support Us" />-->
+
+        </menu>
+    </item>
+
+</menu>
